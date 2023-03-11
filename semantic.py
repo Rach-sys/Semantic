@@ -1,3 +1,9 @@
+# Compare cat, monkey and banana using similarity
+# Tokenisation
+# Use a for loop to retrieve each variation once e.g cat cat, cat apple, cat monkey and cat banana
+# There is only 1.0 similarity between the same two options
+# A warning message is received when using the en_core_web_sm model
+
 import spacy
 
 nlp = spacy.load('en_core_web_md')
